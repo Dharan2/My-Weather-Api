@@ -37,9 +37,11 @@ function App()
                     Do You Want to Know the Weather Report :-)
                 </p>
             <input onChange={handleInput}type="text" className="rounded-md h-6 text-sm mt-2 p-1 outline-none" placeholder="City Name...?"></input>            
+
             <br></br>
+            <p className="text-xs">🔎Search Ex:London,Chennai...etc</p>
             <button onClick={getData} className="bg-black text-white rounded-lg p-1 text-xs mt-2">Get Report⚡</button>
-            <p className="text-xs mt-2">Degree:{deg} | City:{city} | weather:{desc}</p>
+            <p className="text-xs mt-2">Degree(K):{deg} | City:{city} | weather:{desc}</p>
             <small className="text-amber-100">Responsive Website By Dharan...❤️!</small>
             
             </div>
